@@ -58,8 +58,10 @@ public class Persoana {
     public void setEmail(String email) {
         this.email = email;
     }
-     public void toString(String z){
+
+     public String toString(){
          System.out.println("Clasa Person "+getNume());
+         return null;
      }
 }
 

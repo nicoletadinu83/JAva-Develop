@@ -1,7 +1,5 @@
 package ex1_facultate;
 
-import java.util.Date;
-
 public class Angajat extends Persoana {
     private int birou;
     private  double salariu;
@@ -42,6 +40,7 @@ public class Angajat extends Persoana {
     @Override
     public String toString() {
         System.out.println("Clasa angajat " + getNume() );;
+        return null;
     }
 
     public void  toString(String z) {

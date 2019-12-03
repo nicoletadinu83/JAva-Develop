@@ -39,3 +39,4 @@ private int day;
         System.out.println("Ziua Angajarii este :"+ getAn()+getLuna()+ getDay());
     }
 }
+*/

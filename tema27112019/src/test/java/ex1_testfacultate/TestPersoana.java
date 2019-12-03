@@ -5,7 +5,7 @@ import ex1_facultate.Persoana;
 import ex1_facultate.Statut;
 import ex1_facultate.Student;
 
-public class TestPersoana {
+/*public class TestPersoana {
 
     Persoana persoana1= new Persoana("Nicoleta Oprea", "Craiova", 0724553792, "nicoletadinu83@yahoo.com");
 
@@ -18,4 +18,4 @@ public class TestPersoana {
 
     }
 
-}
+}*/

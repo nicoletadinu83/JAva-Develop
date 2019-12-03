@@ -1,7 +1,7 @@
 package ex1_facultate;
 
 public class  Student extends Persoana {
-     Statut st;
+     private Statut st;
 
     public Student(Statut st) {
         super();
@@ -19,5 +19,6 @@ public class  Student extends Persoana {
     @Override
     public String toString() {
         System.out.println("Clasa Student"+ getNume() );
+        return null;
     }
 }

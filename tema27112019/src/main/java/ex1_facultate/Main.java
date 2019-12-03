@@ -1,21 +1,26 @@
 package ex1_facultate;
 
 public class Main {
-    Persoana persoana1= new Persoana("Nicoleta Oprea", "Craiova", 724553792, "nicoletadinu83@yahoo.com");
+    public static void main(String[] args) {
 
-    Student student1= new Student(Statut.JUNIOR);
-    Angajat angajat1 = new Angajat("Nicoleta Oprea", "Craiova", 724553792, "nicoletadinu83@yahoo.com",
-            "June 24,2014");
 
-    public Persoana getPersoana1() {
-        return persoana1;
+        Persoana persoana1 = new Persoana("Nicoleta Oprea", "Craiova", 724553792, "nicoletadinu83@yahoo.com");
+
+        Student student1 = new Student(Statut.JUNIOR);
+        Angajat angajat1 = new Angajat("Nicoleta Oprea", "Craiova", 724553792, "nicoletadinu83@yahoo.com",
+                "June 24,2014");
+
+
+       /* public void toString(){
+            System.out.println("Clasa Person " + persoana1.getNume());
+        }
+        */
+       persoana1.toString();
+
+
+
     }
-    public void toString(String z){
-        System.out.println("Clasa Person "+getNume());
-    }
-    persoana1.toString();
-
 }
 
 
-}
+

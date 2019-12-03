@@ -4,7 +4,7 @@ public class MembruFacultate extends Angajat {
     private String oreDeBirou;
     private  String rang;
 
-    public MembruFacultate(String nume, String adresa, int telefon, String email, MyDate dataAngajarii, String oreDeBirou, String rang) {
+    public MembruFacultate(String nume, String adresa, int telefon, String email, String dataAngajarii, String oreDeBirou, String rang) {
         super(nume, adresa, telefon, email, dataAngajarii);
         this.oreDeBirou = oreDeBirou;
         this.rang = rang;
